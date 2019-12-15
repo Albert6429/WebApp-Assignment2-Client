@@ -1,30 +1,21 @@
-# microblogvue
+# WebApp-Assignment2-Client
 
-> A Vue.js project
+Name: Yifan Gu 20086429
 
-## Build Setup
+## Functionality
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+- **Register Page:** A user can register an account in this page.
+    - Username: required;
+    - Password: required;
+    - Email: required; will be tested if it is in a correct form;
+- **Login Page:** A user can login in this page.
+    - Username: required;
+    - Password: required;
+- **Log Out:** A user can log out by clicking on the ‘Log Out’ button in the navigation bar.
+- **Home Page:** If the user doesn’t login, the Home Page will show a header and 2 buttons (Login and Register). If the user is logged in, the Home Page will show a welcome message.
+- **Posts List Page:** By clicking on the ‘Posts List’ button in the navigation bar, the user will be navigated to Posts List Page. In this page, users can filter by posts’ attributes, add Like for posts and check detail views.
+- **Detail View Page:** By clicking on the ‘Check Detail View’ button in the table of Posts List Page, the user will be navigated to Detail View Page. If the user is the author of the post, he can delete the post by clicking on the ‘Delete’ button. If the user is not the author of the post, the ‘Delete’ button will not be shown.
+- **Post Your Idea Page:** By clicking on the ‘Post Your Idea’ button in the navigation bar, the user will be navigated to Post Your Idea Page. In this page, the user can upload one post.
+    - Title: required; minlength is 5; maxlength is 20; 
+    - Content: required; minlength is 5; maxlength is 100;
+- **Users List Page:** By clicking on the ‘Users List’ button in the navigation bar, the user will be navigated to Users List Page. In this page, users can filter by users’ attributes and add Follow for users.
